@@ -5,9 +5,3 @@ function handleClick() {
 }
 
 document.getElementById("new-deck").addEventListener("click", handleClick);
-
-function callback() {
-  console.log("I finally ran!");
-}
-
-setTimeout(callback, 2000);
