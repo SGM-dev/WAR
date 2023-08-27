@@ -10,6 +10,7 @@ function handleClick() {
     .then((res) => res.json())
     .then((data) => {
       // console.log(data)
+      remainingText.textContent = `Remaining cards: ${data.remaining}`;
       deckId = data.deck_id;
       console.log(deckId);
     });
